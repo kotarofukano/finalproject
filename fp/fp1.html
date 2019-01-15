@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta http-equiv="content-type" charset="UTF-8">
+   <title>最終課題</title>
+   <script type="text/jscript" src="fp1.js"></script>
+ </head>
+
+ <style>
+  .box21{
+position: relative;
+padding: 0.5em;
+background: #a6d3c8;
+color: white;
+}
+
+h1::before {
+position: absolute;
+content: '';
+top: 100%;
+left: 0;
+border: none;
+border-bottom: solid 15px transparent;
+border-right: solid 20px rgb(149, 158, 155);
+}
+ }
+
+ </style>
+
+ <body>
+   <div class="box21">
+    <h1>お年玉セール！！</h1>
+   </div>
+
+   <p>明けましておめでとうキャンペーンをおこないます！
+   <h2><font color="#ff0000">キャンペーン内容</font></h2>
+
+   <div class="box20">
+   2つのうちどちらが高額か予想してください。<br>
+   両方正解した方は1000円クーポンgetできます！<br>
+   </div>
+
+   <form name="radio1">
+   <h2>問題１</h2>
+   <p>どちらが高いでしょうか？？</p>
+   <img src="./cl.jpg"><br>
+   <input type="radio" name="buy1">キャバリアーズのパーカー<br>
+   <br>
+
+   <img src="./ad.jpg"><br>
+   <input type="radio" name="buy1">アディダスのバッシュ<br>
+   <br>
+
+
+
+   <h2>問題２</h2>
+   <p>どちらが高いでしょうか？？</p>
+
+   <img src="./se.jpg"><br>
+   <input type="radio" name="buy2">セルティックスのバッシュ<br>
+   <br>
+
+   <img src="./okc.jpg"><br>
+   <input type="radio" name="buy2">サンダーのパーカー<br>
+   <br>
+
+
+
+
+
+   <input type="button" value="結果発表" onclick="kekka()" />
+   <p><a href="fp2.html">次へ進む</a></p>
+</form>
+
+  <style>
+   .box20 {
+background: #dfefff;
+box-shadow: 0px 0px 0px 5px #dfefff;
+border: dashed 1px #96c2fe;
+padding: 0.2em 0.5em;
+color: #454545;
+}
+
+ 
+  </style>
+
+  </body>
+</html>

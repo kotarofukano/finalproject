@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta http-equiv="content-type" charset="UTF-8">
+   <title>最終課題</title>
+   <script type="text/jscript" src="fp2.js"></script>
+ </head>
+
+ <style>
+  .box25{
+    position: relative;
+    background: #fff0cd;
+    box-shadow: 0px 0px 0px 5px #fff0cd;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: #454545;
+ }
+ .box25:after{
+    position: absolute;
+    content: '';
+    right: -7px;
+    top: -7px;
+    border-width: 0 15px 15px 0;
+    border-style: solid;
+    border-color: #ffdb88 #fff #ffdb88;
+    box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+ }
+ .box25 p {
+    margin: 0;
+    padding: 0;
+ }
+ .box26 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+}
+.box26 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+.box26 p {
+    margin: 0;
+    padding: 0;
+}
+ </style>
+
+ <body>
+
+   <div class="box25">
+    <h2>商品一覧</h2>
+   </div>
+
+   <div class="box26">
+    <span class="box-title">Myカート</span>
+    <div id="op1"></div>
+    <div id="op2"></div>
+
+</div>
+
+   <br>
+   <h2><font color="blue">カリーのバッシュ</font></h2>
+   <img src="./ad.jpg"><br>
+   カリーの最新モデル、カリー6を独自ルートで入手！！<br>
+   値段;17000円<br>
+   サイズ;24.0~30.0<br>
+   <input type="button" value="購入" onclick="b1()" /><br>
+
+   <br>
+   <h2><font color="red">レブロンのバッシュ</font></h2>
+   <img src="./se.jpg"><br>
+   大人気モデル、レブロンキング。レブロンファンなら必需！<br>
+   値段;20000円<br>
+   サイズ;26.0~31.0<br>
+   <input type="button" value="購入" onclick="b2()" /><br>
+
+
+
+   <p><a href="fp3.html">個人情報を入力フォームに移動</a></p>
+
+ </body>
+</html>
